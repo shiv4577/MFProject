@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="7.67" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\All Selenium Workspace\MFWorkspace\MFProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\All Selenium Workspace\MFWorkspace\MFProject"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\All Selenium Workspace\MFWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7724188880035650621.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Users\ASUS\Downloads\chromedriver.exe;C:\Users\ASUS\Downloads\geckodriver.exe;C:\Windows\System32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="java.class.path" value="C:\Users\ASUS\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\All Selenium Workspace\MFWorkspace\MFProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginTestCase" classname="com.w2aTestCases.LoginTest" time="7.67">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@type=&apos;submi&apos;]&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-C7SRO4S&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5d762e1c0c0a45e183edaf77513ba13f&#10;*** Element info: {Using=xpath, value=//button[@type=&apos;submi&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submi']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C7SRO4S', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d762e1c0c0a45e183edaf77513ba13f
+*** Element info: {Using=xpath, value=//button[@type='submi']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at AllPages.LoginPage.ClickOnSubmitButton(LoginPage.java:42)
+	at com.w2aTestCases.LoginTest.loginTestCase(LoginTest.java:21)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+on test start
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 81.0.4044.20 (f006328e39a9769596eb506c8841c3004b24e747-refs/branch-heads/4044@{#244}) on port 3110
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 14, 2020 12:38:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589440119.869][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.020][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.632][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.734][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.851][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440120.953][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.056][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.405][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.507][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440121.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.280][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.383][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.486][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.689][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.791][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440122.898][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.003][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.111][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.427][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.529][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.637][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.750][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440123.853][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440124.570][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440124.671][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589440124.778][SEVERE]: Timed out receiving message from renderer: 0.100
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2a.listners.CustomListner"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.w2aTestCases.LoginTest">
+        <methods>
+          <include name="SetupMethod"/>
+          <include name="loginTestCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2aTestCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

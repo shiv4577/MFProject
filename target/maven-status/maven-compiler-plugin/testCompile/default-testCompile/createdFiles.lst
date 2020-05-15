@@ -1,0 +1,8 @@
+com\w2a\rough\TimeStamp.class
+com\w2aUtilities\TestUtils.class
+com\w2aUtilities\ExtentManager.class
+com\w2aTestCases\LoginTest.class
+AllPages\LoginPage.class
+com\w2a\Base\TestBase.class
+com\w2a\listners\CustomListner.class
+com\w2a\rough\TestProperies.class
